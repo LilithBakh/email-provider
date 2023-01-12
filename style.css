@@ -1,0 +1,55 @@
+body {
+	margin: 20px;
+	background-color: rgb(0,0,0);
+}
+
+.bar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 110px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.searchBar {
+	display: flex;
+}
+
+.fa-magnifying-glass {
+	color: rgb(194,194,194);
+	background-color: rgb(58,58,58);
+	padding-top: 19px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	cursor: pointer;
+}
+
+.search {
+	border: none;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	outline: none;
+	background-color: rgb(58,58,58);
+	color: rgb(194,194,194);
+	width: 370px;
+	height: 55px;
+	flex: 1;
+}
+
+::placeholder {
+	color: rgb(194,194,194);
+	font-size: 15px;
+}
+
+.userImage {
+	width: 30px;
+	margin-top: 10px;
+	border-radius: 15px;
+	cursor: pointer;
+}
